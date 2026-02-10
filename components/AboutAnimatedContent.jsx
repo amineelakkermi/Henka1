@@ -108,7 +108,7 @@ const AboutAnimatedContent = () => {
         </div>
 
         {/* رؤيتنا */}
-        <div className="group border-b border-purple-300 hover:bg-purple-50 duration-300 flex flex-col gap-3 py-6 px-4 flex-1">
+        <div className="group border-b border-purple-300 hover:bg-purple-50 duration-300 flex flex-col  py-6 px-4 flex-1">
           <div className='flex items-center gap-3'>
             <h3 className={`${styles.title} text-purple-900 text-[16px]`}>رؤيتنــا</h3>
             <Image src={H} alt="logo" width={20} height={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 filter brightness-0" />
