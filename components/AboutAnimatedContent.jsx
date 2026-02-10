@@ -83,7 +83,7 @@ const AboutAnimatedContent = () => {
       <div className="w-full flex z-20 flex-col gap-4">
         {paragraphs.map((text, i) => (
           <div key={i} className="flex items-start gap-3">
-            <p className={` ${styles.paragraph} text-[16px] lg:text-[18px] ${i === 2 ? 'text-center' : 'text-right'}`}>
+            <p className={` ${styles.paragraph} mt-0 text-[16px] lg:text-[18px] ${i === 2 ? 'text-center' : 'text-right'}`}>
               {text}
             </p>
           </div>
