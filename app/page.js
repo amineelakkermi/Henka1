@@ -32,7 +32,6 @@ export default function Home(){
     <Partners />
     <InvestmentAreas />
 
-    <Future />
    </div>
   )
 }

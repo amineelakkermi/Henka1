@@ -5,7 +5,7 @@ import styles from "@/styles/style";
 const Vision = () => {
   
   return (
-    <section id="vision" className={`w-full snap-start relative  bg-gray-50 min-h-[90vh] text-purple-900 flex flex-col justify-center py-8 lg:py-12 overflow-hidden`}>
+    <section id="vision" className={`w-full snap-start relative  bg-gray-50 min-h-[90vh] text-purple-900 hidden lg:flex flex-col justify-center py-8 lg:py-12 overflow-hidden`}>
       <div className="max-w-4xl mx-auto px-6 lg:px-16 flex flex-col md:flex-row justify-center gap-0">
           {/* رسالتنا */}
       <div

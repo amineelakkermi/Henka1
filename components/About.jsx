@@ -9,7 +9,7 @@ const About = () => {
        bg-white
       `}
     >
-      <div className="max-w-5xl mx-auto px-6  flex flex-col justify-start gap-5">
+      <div className="max-w-4xl mx-auto px-6  flex flex-col justify-start gap-5">
         <AboutAnimatedContent />
       </div>
     </section>

@@ -71,7 +71,7 @@ export default function Future() {
   return (
     <section
       className={`relative bg-gray-50
-      w-full hidden lg:flex items-center justify-center py-16 lg:py-24`}
+      w-full flex items-center justify-center py-16 lg:py-24`}
     >
       <div className="relative w-full max-w-4xl flex flex-col gap-16">
         {/* Image */}
@@ -96,7 +96,6 @@ export default function Future() {
 
         
         </div>
-
         <div
         className="w-full flex justify-center px-4"
         >
