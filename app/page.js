@@ -17,12 +17,12 @@ export default function Home(){
     <div className="relative min-h-screen">
       {/* Background image qui couvre tout */}
       <Image 
-        src='/images/background.png' 
+        src='/images/background1.png' 
         alt="background"
         className="absolute inset-0 w-full h-full object-cover -z-10"
         fill
       />
-      <div className="absolute  inset-0 w-full h-full object-cover -z-10 bg-gradient-to-b from-purple-900/20 via-purple-800/30 to-purple-900/40" />
+      <div className="absolute  inset-0 w-full h-full object-cover -z-10 bg-gradient-to-b from-purple-900/20 via-purple-800/50 to-purple-900/90" />
       {/* Navbar et Hero par-dessus le background */}
       <Navbar />
       <Hero />
