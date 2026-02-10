@@ -99,10 +99,10 @@ const AboutAnimatedContent = () => {
         {/* رسالتنا */}
         <div className="group border-b border-purple-300 hover:bg-purple-50 duration-300 flex flex-col gap-3 py-6 px-4 flex-1">
           <div className='flex group items-center gap-3'>
-            <h3 className={`${styles.title} text-purple-900 text-[18px]`}>رسالتنــا</h3>
+            <h3 className={`${styles.title} text-purple-900 text-[16px]`}>رسالتنــا</h3>
             <Image src={H} alt="logo" width={20} height={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 filter brightness-0" />
           </div>
-          <p className={`${styles.paragraph} text-[14px] text-right`}>
+          <p className={`${styles.paragraph} text-[12px] text-right`}>
             أن نحافظ على ثروة العائلة وننميها من خلال استثمارات مدروسة، تحترم القيم وتتبنّى الابتكار، مع التخطيط المستدام للأجيال القادمة.
           </p>
         </div>
@@ -110,10 +110,10 @@ const AboutAnimatedContent = () => {
         {/* رؤيتنا */}
         <div className="group border-b border-purple-300 hover:bg-purple-50 duration-300 flex flex-col gap-3 py-6 px-4 flex-1">
           <div className='flex items-center gap-3'>
-            <h3 className={`${styles.title} text-purple-900 text-[18px]`}>رؤيتنــا</h3>
+            <h3 className={`${styles.title} text-purple-900 text-[16px]`}>رؤيتنــا</h3>
             <Image src={H} alt="logo" width={20} height={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 filter brightness-0" />
           </div>
-          <p className={`${styles.paragraph} text-[14px] text-right text-purple-900`}>
+          <p className={`${styles.paragraph} text-[12px] text-right text-purple-900`}>
             أن نكون نموذجًا سعوديًا رائدًا في إدارة الاستثمارات العائلية بحكمة مؤسسية، وشراكات استراتيجية، ونمو متزن.
           </p>
         </div>
