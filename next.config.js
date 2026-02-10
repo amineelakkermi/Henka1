@@ -1,9 +1,9 @@
-// next.config.js
-module.exports = {
-    trailingSlash: true, // 
-    images: {
-      unoptimized: false,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  trailingSlash: true,
+  images: {
+    domains: ['localhost'],
+  },
+};
 
-    },
-  };
-  
+module.exports = nextConfig;
