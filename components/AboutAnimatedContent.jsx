@@ -17,7 +17,6 @@ const AboutAnimatedContent = () => {
     "هي مكتب استثمار عائلي سعودي، تأسس على يد عائلة تمتلك إرثًا من الريادة والاستثمار الممتد لعقود, ؤمن أن الثروة مسؤولية، وأن إدارة الأصول لا تتعلق بالأرقام فقط، بل بما تحمله من أثر، ورؤية، و استمرارية , حنكة ليست مجرد كيان مالي، ",
 
     " بل عقلية تعمل على ترجمة قيم العائلة في الحكمة، الانضباط، والرؤية بعيدة المدى، إلى قرارات مالية رشيدة تنمّي الثروة وتحافظ عليها.",
-    "نحــن نعمـــل بصمـــت لكـــن بأثـــر عمــيـــق.",
   ];
 
   useEffect(() => {
@@ -69,7 +68,7 @@ const AboutAnimatedContent = () => {
   }, []);
 
   return (
-    <div  className="flex relative flex-col justify-start items-start gap-8 ">
+    <div  className="flex relative flex-col justify-center items-start gap-8 ">
 
       {/* Titre à gauche */}
       <div className="flex z-20 gap-2 lg:gap-8 items-center lg:items-start">
@@ -89,6 +88,10 @@ const AboutAnimatedContent = () => {
             </p>
           </div>
         ))}
+      </div>
+
+      <div className="w-full flex justify-center">
+      <p className={`${styles.paragraph} text-[16px] lg:text-[18px] text-center w-full mx-auto`}>نحــن نعمـــل بصمـــت لكـــن بأثـــر عمــيـــق.</p>
       </div>
 
       {/* Contenu Vision pour mobile */}
