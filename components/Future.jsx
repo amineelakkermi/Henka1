@@ -71,7 +71,7 @@ export default function Future() {
   return (
     <section
       className={`relative bg-gray-50
-      w-full  flex items-center justify-center py-16 lg:py-24`}
+      w-full hidden lg:flex items-center justify-center py-16 lg:py-24`}
     >
       <div className="relative w-full max-w-4xl flex flex-col gap-16">
         {/* Image */}
@@ -87,7 +87,6 @@ export default function Future() {
 
           {/* نص في منتصف الصورة */}
           <div
-            ref={centerTextRef}
             className="absolute inset-0 flex items-center justify-center text-center px-4"
           >
             <p className="text-white font-semibold text-[24px] md:text-[40px] leading-relaxed">
@@ -97,7 +96,7 @@ export default function Future() {
 
         
         </div>
-            {/* نص في أسفل الصورة */}
+
         <div
         className="w-full flex justify-center px-4"
         >

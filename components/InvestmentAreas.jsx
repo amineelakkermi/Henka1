@@ -114,10 +114,10 @@ const InvestmentAreas = () => {
       <div className="max-w-7xl mx-auto px-6 flex flex-col gap-16">
         {/* Titre & Introduction */}
         <div className="flex flex-col lg:flex-row justify-between lg:items-center gap-5 md:gap-8">
-          <h1 ref={titleRef} className={`${styles.title} text-center text-purple-900`}>
+          <h1  className={`${styles.title} text-center text-purple-900`}>
             مجــالــات الإسـثـمــار
           </h1>
-          <p className={`${styles.paragraph} text-purple-900 font-medium max-w-[100%] md:max-w-[450px]`}>
+          <p className={`${styles.paragraph} text-center  lg:text-right text-purple-900 font-medium max-w-[100%] md:max-w-[450px]`}>
             نعمل على تنويع محفظتنا ضمن مجالات نُتقنها، ونؤمن بأهميتها لمستقبل الاقتصاد
           </p>
         </div>
@@ -140,24 +140,26 @@ const InvestmentAreas = () => {
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
               />
 
-              {/* Overlay pour les titres et description */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/70 to-transparent p-6 transition-all duration-300
-              group-hover:from-black/95  text-right">
-                {/* Name EN en haut (gris, petite taille) */}
-                <h4 className="text-gray-400 text-xs md:text-sm font-light text-right mb-1 transition-all duration-300 group-hover:text-gray-300">
-                  {sector.nameEn}
-                </h4>
-                
-                {/* Name AR en bas (grande taille) */}
-                <h3 className="text-white font-bold text-[16px] md:text-[18px] lg:text-[20px] text-right transition-all duration-300">
-                  {sector.nameAr}
-                </h3>
+              {/* Overlay indépendant pour l'effet */}
+              <div className="absolute bottom-0 left-0 right-0 h-2/3 transition-all duration-300 group-hover:h-full overflow-hidden">
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-purple-900 via-purple-800/60 to-transparent transition-all duration-300
+                group-hover:from-purple-950 group-hover:via-purple-900/90 p-6 text-right">
+                  {/* Name EN en haut (gris, petite taille) */}
+                  <h4 className="text-gray-400 text-xs md:text-sm font-light text-right mb-1 transition-all duration-300 group-hover:text-gray-300">
+                    {sector.nameEn}
+                  </h4>
+                  
+                  {/* Name AR en bas (grande taille) */}
+                  <h3 className="text-white font-bold text-[16px] md:text-[18px] lg:text-[20px] text-right transition-all duration-300">
+                    {sector.nameAr}
+                  </h3>
 
-                {/* Description qui apparaît au hover */}
-                <p className="text-white/50 text-xs md:text-sm text-right opacity-0 transition-all duration-300 group-hover:opacity-100
-                mt-2 max-h-0 overflow-hidden group-hover:max-h-24">
-                  {sector.description}
-                </p>
+                  {/* Description qui apparaît au hover */}
+                  <p className="text-white/50 text-xs md:text-sm text-right opacity-0 transition-all duration-300 group-hover:opacity-100
+                  mt-2 max-h-0 overflow-hidden group-hover:max-h-24">
+                    {sector.description}
+                  </p>
+                </div>
               </div>
             </div>
           ))}

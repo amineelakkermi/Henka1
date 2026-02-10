@@ -75,7 +75,7 @@ const AnimatedHeroContent = () => {
 
       {/* Titre */}
       <h1 ref={titleRef} className={`${styles.title}`}>
-        حنكــة ، حيث تلتقي الحكمة بالاستثمار
+        حنكــة  حيث تلتقي الحكمة بالاستثمار
       </h1>
 
       {/* Paragraphe */}

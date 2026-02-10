@@ -5,11 +5,11 @@ const About = () => {
   return (
     <section 
       id="about" 
-      className={`relative w-full min-h-[90vh] text-purple-900 flex flex-col justify-center py-8 lg:py-20 overflow-hidden 
+      className={`relative w-full min-h-[90vh] text-purple-900 flex flex-col justify-start py-8 lg:py-20 overflow-hidden 
        bg-white
       `}
     >
-      <div className="max-w-7xl mx-auto px-6  flex flex-col justify-center gap-5">
+      <div className="max-w-5xl mx-auto px-6  flex flex-col justify-start gap-5">
         <AboutAnimatedContent />
       </div>
     </section>

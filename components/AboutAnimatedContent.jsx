@@ -68,23 +68,22 @@ const AboutAnimatedContent = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="flex relative flex-col justify-start gap-5">
+    <div  className="flex relative flex-col justify-start items-start gap-8 ">
 
-      <div className="flex z-20 gap-2 lg:gap-8 items-center">
+      {/* Titre à gauche */}
+      <div className="flex z-20 gap-2 lg:gap-8 items-center lg:items-start">
         <h1
-          ref={titleRef}
           className={`${styles.title}`}
         >
           حنكــة للإستثمـــار
         </h1>
-
-      
       </div>
 
+      {/* Paragraphes à droite */}
       <div className="w-full flex z-20 flex-col gap-4">
         {paragraphs.map((text, i) => (
           <div key={i} className="flex items-start gap-3">
-            <p className={`animated-paragraph ${styles.paragraph} text-right max-w-[600px]`}>
+            <p className={` ${styles.paragraph} text-[16px] lg:text-[18px] text-right`}>
               {text}
             </p>
           </div>
