@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
+  output: 'export',  // هذا مهم جداً
   images: {
-    domains: ['localhost'],
+    unoptimized: true,
   },
 };
 

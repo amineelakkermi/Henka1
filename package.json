@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "start": "next start",
+  "lint": "next lint"
   },
+
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "gsap": "^3.13.0",
